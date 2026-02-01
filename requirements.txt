@@ -1,0 +1,22 @@
+# SceneSense AI v5.0 - Requirements
+# ===================================
+
+# Core
+groq>=0.4.0
+python-dotenv>=1.0.0
+streamlit>=1.30.0
+pandas>=2.0.0
+requests>=2.31.0
+
+# Narrative Memory (RAG)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+pypdf>=3.17.0
+
+# Shot Image Generation — Gemini Nano Banana (FREE)
+# IMPORTANT: Use google-genai (NOT google-generativeai)
+google-genai>=1.0.0
+Pillow>=10.0.0
+
+# Utilities
+numpy>=1.24.0

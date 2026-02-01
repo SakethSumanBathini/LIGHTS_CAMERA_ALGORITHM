@@ -1,0 +1,18 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+image_cache/
+*.png
+*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
